@@ -10,13 +10,13 @@
 </head>
 <body>
     <div id="app">
-          
-    <ul>
-        <li v-for="(email,index) in listaEmail">
-            {{email}}
-        </li>
-    </ul>
         <button @click="callApi">aggiorna</button>
+        
+        <ul>
+            <li v-for="(email,index) in listaEmail">
+                {{email}}
+            </li>
+        </ul>
     </div>
     <script src="script.js"></script>
 </body>

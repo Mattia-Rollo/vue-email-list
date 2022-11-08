@@ -20,10 +20,10 @@
         }
     },
     mounted(){
-      this.callApi();
-        
+      
     },
     created(){
+      this.callApi();
        
     },
     beforeCreated(){
